@@ -1,0 +1,36 @@
+{
+ "format": 3,
+ "id": "copy-source",
+ "author": "ipod-patches",
+ "title": "test vector copy-source",
+ "base": "synthetic-1",
+ "requires": [],
+ "conflicts": [],
+ "status": "test",
+ "edits": [],
+ "append": [
+  {
+   "image": "osos",
+   "offset": "0x1100",
+   "bytes": 32,
+   "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+   "file": "append.hex"
+  }
+ ],
+ "copies": [
+  {
+   "image": "osos",
+   "offset": "0x1100",
+   "from": {
+    "image": "osos",
+    "offset": "0x400",
+    "bytes": 32,
+    "sha256": "48dd65c80ea3cfa8edf1efaffd1916d4fdcccaec9b65df5f850f7f2754a8c314"
+   }
+  }
+ ],
+ "source": {
+  "from": "tools/make_vectors.py"
+ },
+ "license": "MIT"
+}

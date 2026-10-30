@@ -1,0 +1,29 @@
+{
+ "format": 3,
+ "id": "stock-mismatch",
+ "author": "ipod-patches",
+ "title": "test vector stock-mismatch",
+ "base": "synthetic-1",
+ "requires": [],
+ "conflicts": [],
+ "status": "test",
+ "edits": [
+  {
+   "image": "osos",
+   "offset": "0x600",
+   "patched": "44444444",
+   "check": {
+    "offset": "0x5f0",
+    "bytes": 48,
+    "sha256": "05d051c9b829837b63d18c383cb3fd8b02e2ef9d703a578908944d80942155f1"
+   },
+   "why": "vector"
+  }
+ ],
+ "append": [],
+ "copies": [],
+ "source": {
+  "from": "tools/make_vectors.py"
+ },
+ "license": "MIT"
+}

@@ -1,0 +1,31 @@
+{
+ "format": 3,
+ "id": "needs-edit",
+ "author": "ipod-patches",
+ "title": "test vector needs-edit",
+ "base": "synthetic-1",
+ "requires": [
+  "edit"
+ ],
+ "conflicts": [],
+ "status": "test",
+ "edits": [
+  {
+   "image": "osos",
+   "offset": "0x300",
+   "patched": "11111111",
+   "check": {
+    "offset": "0x2f0",
+    "bytes": 48,
+    "sha256": "9aabea2e8a73b9053d84ce49a4a630ebdf735a195678c76c9e2b91f6615f3785"
+   },
+   "why": "vector"
+  }
+ ],
+ "append": [],
+ "copies": [],
+ "source": {
+  "from": "tools/make_vectors.py"
+ },
+ "license": "MIT"
+}

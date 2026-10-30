@@ -1,0 +1,25 @@
+{
+ "format": 3,
+ "id": "synthetic-1",
+ "title": "Synthetic stock firmware for the test vectors",
+ "maker": "ipod-patches",
+ "version": "1",
+ "models": [],
+ "file": "vectors/stock.bin",
+ "bytes": 22528,
+ "sha256": "8b9ed6d75b4da75ae0e43ff57ed662b8eebcacc876e27e627aef26f5396aa89d",
+ "images": {
+  "osos": {
+   "bytes": 4096,
+   "sha256": "4ff2db6e1047c8dcae4d01b37542be05035acba9b76f51b6eb6337f6f60d2e0d",
+   "addr": "0x28000000",
+   "max_bytes": "0x1800"
+  },
+  "aupd": {
+   "bytes": 1024,
+   "sha256": "a7df0493abcfd3da46a17f9195ceac7b34c1dccd8539c63fcadd8a574f126330",
+   "addr": "0x28000000",
+   "max_bytes": "0x400"
+  }
+ }
+}

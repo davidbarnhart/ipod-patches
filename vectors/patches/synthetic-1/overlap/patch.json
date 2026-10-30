@@ -1,0 +1,29 @@
+{
+ "format": 3,
+ "id": "overlap",
+ "author": "ipod-patches",
+ "title": "test vector overlap",
+ "base": "synthetic-1",
+ "requires": [],
+ "conflicts": [],
+ "status": "test",
+ "edits": [
+  {
+   "image": "osos",
+   "offset": "0x104",
+   "patched": "2222222222222222",
+   "check": {
+    "offset": "0xf0",
+    "bytes": 48,
+    "sha256": "c0c6c6f2b8da5f3e963df3514fb523d8989104d4e3e29984f0f20140c26975b6"
+   },
+   "why": "vector"
+  }
+ ],
+ "append": [],
+ "copies": [],
+ "source": {
+  "from": "tools/make_vectors.py"
+ },
+ "license": "MIT"
+}

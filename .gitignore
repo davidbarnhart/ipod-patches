@@ -1,0 +1,7 @@
+# stock firmware never goes in this repo
+*.ipsw
+*.bin
+*.bin.gz
+Firmware-*
+!vectors/stock.bin
+__pycache__/

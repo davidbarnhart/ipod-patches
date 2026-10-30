@@ -1,0 +1,25 @@
+{
+ "format": 3,
+ "id": "carries-stock",
+ "author": "ipod-patches",
+ "title": "test vector carries-stock",
+ "base": "synthetic-1",
+ "requires": [],
+ "conflicts": [],
+ "status": "test",
+ "edits": [],
+ "append": [
+  {
+   "image": "osos",
+   "offset": "0x1180",
+   "bytes": 64,
+   "sha256": "4eda0182fd80f1dfa92865d28d15af6926dbc212131484a4f7820966c64ac529",
+   "file": "append.hex"
+  }
+ ],
+ "copies": [],
+ "source": {
+  "from": "tools/make_vectors.py"
+ },
+ "license": "MIT"
+}

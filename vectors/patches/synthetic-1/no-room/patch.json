@@ -1,0 +1,25 @@
+{
+ "format": 3,
+ "id": "no-room",
+ "author": "ipod-patches",
+ "title": "test vector no-room",
+ "base": "synthetic-1",
+ "requires": [],
+ "conflicts": [],
+ "status": "test",
+ "edits": [],
+ "append": [
+  {
+   "image": "osos",
+   "offset": "0x1700",
+   "bytes": 512,
+   "sha256": "ae4abd0a3289e977dd78aa0d39f47e081a761db8340217a920eab339a457a3ad",
+   "file": "append.hex"
+  }
+ ],
+ "copies": [],
+ "source": {
+  "from": "tools/make_vectors.py"
+ },
+ "license": "MIT"
+}

@@ -1,0 +1,40 @@
+{
+ "format": 3,
+ "id": "copy-outside",
+ "author": "ipod-patches",
+ "title": "test vector copy-outside",
+ "base": "synthetic-1",
+ "requires": [],
+ "conflicts": [],
+ "status": "test",
+ "edits": [
+  {
+   "image": "osos",
+   "offset": "0x700",
+   "patched": "55555555",
+   "check": {
+    "offset": "0x6f0",
+    "bytes": 48,
+    "sha256": "b93f0b0fc06f5854e3095d5ea971ea1873526f5aa02573caf2aa03832300905a"
+   },
+   "why": "vector"
+  }
+ ],
+ "append": [],
+ "copies": [
+  {
+   "image": "osos",
+   "offset": "0x800",
+   "from": {
+    "image": "osos",
+    "offset": "0x400",
+    "bytes": 32,
+    "sha256": "7f2f92f832ea106a742ab4c62f1cc6e0190d8693c053314b9f3d2716698f9ffe"
+   }
+  }
+ ],
+ "source": {
+  "from": "tools/make_vectors.py"
+ },
+ "license": "MIT"
+}

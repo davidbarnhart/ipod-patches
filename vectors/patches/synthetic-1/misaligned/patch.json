@@ -1,0 +1,25 @@
+{
+ "format": 3,
+ "id": "misaligned",
+ "author": "ipod-patches",
+ "title": "test vector misaligned",
+ "base": "synthetic-1",
+ "requires": [],
+ "conflicts": [],
+ "status": "test",
+ "edits": [],
+ "append": [
+  {
+   "image": "osos",
+   "offset": "0x1002",
+   "bytes": 16,
+   "sha256": "15487cc0637a5dac85feeaffbdefba4efb7028686a3bfedd2cfab67d1d453663",
+   "file": "append.hex"
+  }
+ ],
+ "copies": [],
+ "source": {
+  "from": "tools/make_vectors.py"
+ },
+ "license": "MIT"
+}

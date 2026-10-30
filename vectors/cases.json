@@ -1,0 +1,129 @@
+{
+ "format": 3,
+ "base": "synthetic-1",
+ "stock": "stock.bin",
+ "cases": [
+  {
+   "name": "one edit",
+   "patches": [
+    "edit"
+   ],
+   "expect": {
+    "bytes": 22528,
+    "sha256": "6d1f69fc3629f80c455be596eb937b54f611dc0aba7e3f92ef682a6ff4398585"
+   }
+  },
+  {
+   "name": "edit + append + copy + requires",
+   "patches": [
+    "edit",
+    "append",
+    "copy",
+    "needs-edit"
+   ],
+   "expect": {
+    "bytes": 23040,
+    "sha256": "646aad7458af61a8123b9a00647c7e272e2ff14114320537653057e6f1fd7cbf"
+   }
+  },
+  {
+   "name": "requires missing",
+   "patches": [
+    "needs-edit"
+   ],
+   "expect": {
+    "refused": "requires"
+   }
+  },
+  {
+   "name": "two patches own a byte",
+   "patches": [
+    "edit",
+    "overlap"
+   ],
+   "expect": {
+    "refused": "overlap"
+   }
+  },
+  {
+   "name": "declared conflict",
+   "patches": [
+    "edit",
+    "conflicts"
+   ],
+   "expect": {
+    "refused": "conflicts"
+   }
+  },
+  {
+   "name": "appended code past the image's room",
+   "patches": [
+    "no-room"
+   ],
+   "expect": {
+    "refused": "no_room"
+   }
+  },
+  {
+   "name": "appended code not 4-byte aligned",
+   "patches": [
+    "misaligned"
+   ],
+   "expect": {
+    "refused": "misaligned"
+   }
+  },
+  {
+   "name": "stock differs from the check window",
+   "patches": [
+    "stock-mismatch"
+   ],
+   "expect": {
+    "refused": "stock_mismatch"
+   }
+  },
+  {
+   "name": "copy source isn't in stock",
+   "patches": [
+    "copy-source"
+   ],
+   "expect": {
+    "refused": "copy_source"
+   }
+  },
+  {
+   "name": "copy lands outside the patch's bytes",
+   "patches": [
+    "copy-outside"
+   ],
+   "expect": {
+    "refused": "copy_outside"
+   }
+  },
+  {
+   "name": "firmware that isn't the base",
+   "patches": [
+    "edit"
+   ],
+   "stock_change": {
+    "offset": "0x4500",
+    "xor": 1
+   },
+   "expect": {
+    "refused": "base_mismatch"
+   }
+  },
+  {
+   "name": "published stock bytes",
+   "patches": [
+    "carries-stock"
+   ],
+   "scan": true,
+   "expect": {
+    "scan_fails": [
+     "carries-stock"
+    ]
+   }
+  }
+ ]
+}

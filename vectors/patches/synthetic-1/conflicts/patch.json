@@ -1,0 +1,31 @@
+{
+ "format": 3,
+ "id": "conflicts",
+ "author": "ipod-patches",
+ "title": "test vector conflicts",
+ "base": "synthetic-1",
+ "requires": [],
+ "conflicts": [
+  "edit"
+ ],
+ "status": "test",
+ "edits": [
+  {
+   "image": "osos",
+   "offset": "0x500",
+   "patched": "33333333",
+   "check": {
+    "offset": "0x4f0",
+    "bytes": 48,
+    "sha256": "c81ba3510895e92adadc9ab1b88be0aed11ae639eabe283cdd05eb45f3843d16"
+   },
+   "why": "vector"
+  }
+ ],
+ "append": [],
+ "copies": [],
+ "source": {
+  "from": "tools/make_vectors.py"
+ },
+ "license": "MIT"
+}

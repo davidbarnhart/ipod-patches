@@ -1,0 +1,160 @@
+{
+ "format": 3,
+ "files": [
+  {
+   "path": "bases/synthetic-1.json",
+   "bytes": 629,
+   "sha256": "3a7bd30ba1555d93ec7da7f55a8437406cbecc1cf3c55d40b31f7d5336495074"
+  },
+  {
+   "path": "patches/synthetic-1/append/README.md",
+   "bytes": 49,
+   "sha256": "7be360bdd40b50a8cc4333d33108fe6f4a63ecb613e7ae420724a727fc69a996"
+  },
+  {
+   "path": "patches/synthetic-1/append/append.hex",
+   "bytes": 130,
+   "sha256": "de61826945049d8f6f6b28e187eb1c06084a057b2e1464ac07fd72d7e8fadcbc"
+  },
+  {
+   "path": "patches/synthetic-1/append/patch.json",
+   "bytes": 697,
+   "sha256": "1b8d63b02ab7b20f3f1e76c506fddf53fc634ad0756e75fc836955a10e327ffd"
+  },
+  {
+   "path": "patches/synthetic-1/carries-stock/README.md",
+   "bytes": 56,
+   "sha256": "d140acefa99f29499329ff6ec4f14feb3124c2d7ab91735ad5838800465b3a73"
+  },
+  {
+   "path": "patches/synthetic-1/carries-stock/append.hex",
+   "bytes": 130,
+   "sha256": "e57d425d99e0b2c40196805f41cb26e629293efb0ff6f50560b22c619acef880"
+  },
+  {
+   "path": "patches/synthetic-1/carries-stock/patch.json",
+   "bytes": 473,
+   "sha256": "8a6d7c69f74b508f30c9a132e6acc90459f82d00c7674303c356aff813d07ee2"
+  },
+  {
+   "path": "patches/synthetic-1/conflicts/README.md",
+   "bytes": 52,
+   "sha256": "a5d5c1b7a595a355f1d58ba7a4faa4451e81c846ec87516bc3395c8c2916960d"
+  },
+  {
+   "path": "patches/synthetic-1/conflicts/patch.json",
+   "bytes": 540,
+   "sha256": "3cb120c7fcda43c8f2c8a768fe0b3fe8cca18a25b9dec62b13a39fc18be33265"
+  },
+  {
+   "path": "patches/synthetic-1/copy-outside/README.md",
+   "bytes": 55,
+   "sha256": "25df2609c1eb045a339b798f70e60e6408c05aaea1966ab9eec700962ba445c2"
+  },
+  {
+   "path": "patches/synthetic-1/copy-outside/patch.json",
+   "bytes": 747,
+   "sha256": "eab5d97278aeacd3a4824e1a9c8b5d304586cb9c131ffd4a54e90fa8f647d9f2"
+  },
+  {
+   "path": "patches/synthetic-1/copy-source/README.md",
+   "bytes": 54,
+   "sha256": "6090543d997af84d197b863fb1df22580900900a6df2677ce2f844f5d28070d2"
+  },
+  {
+   "path": "patches/synthetic-1/copy-source/append.hex",
+   "bytes": 65,
+   "sha256": "827d096d92f3deeaa0e8070d79f45beb176768e57a958a1cd325f5f4b754b048"
+  },
+  {
+   "path": "patches/synthetic-1/copy-source/patch.json",
+   "bytes": 682,
+   "sha256": "29b424dd7459b36295b146a85d5cfce28e6695c9bb667190b8297ba0d5ad7fa2"
+  },
+  {
+   "path": "patches/synthetic-1/copy/README.md",
+   "bytes": 47,
+   "sha256": "91c94eb9c00cfd1aa7ec6f3ed9d2b4ed20554a73fa6f35362fde9771dcbb949e"
+  },
+  {
+   "path": "patches/synthetic-1/copy/append.hex",
+   "bytes": 98,
+   "sha256": "55d2c163adf47d142e7ff5fb2caddbe9dbfa363a9e3d7ba65c850b1dbaf58d03"
+  },
+  {
+   "path": "patches/synthetic-1/copy/patch.json",
+   "bytes": 904,
+   "sha256": "534c95cbaa4ae87dc979ec2d5baad695e79d768062bc97b9c5331e4f0a9a3a08"
+  },
+  {
+   "path": "patches/synthetic-1/edit/README.md",
+   "bytes": 47,
+   "sha256": "7239d34a43226d89e82a08b0cc047de80fc10e4b13e198e9c445475bd9f4ac2d"
+  },
+  {
+   "path": "patches/synthetic-1/edit/patch.json",
+   "bytes": 526,
+   "sha256": "0428a05d90aeecf80d9523778eddd0f163233f256a5baedeef032b3b973db434"
+  },
+  {
+   "path": "patches/synthetic-1/misaligned/README.md",
+   "bytes": 53,
+   "sha256": "36128447f89f069208276862af9f0a4d04e47d1d56c670e4ff9b32c2e8ff2b13"
+  },
+  {
+   "path": "patches/synthetic-1/misaligned/append.hex",
+   "bytes": 33,
+   "sha256": "e77c4c7781216b44782d007ff62b9dc9aa50b9e3fdc129acb1a340990590481f"
+  },
+  {
+   "path": "patches/synthetic-1/misaligned/patch.json",
+   "bytes": 467,
+   "sha256": "7d8b3aad0a497c8225925f69c9480fd73bb0780dc28a7e97999569cd0b11c446"
+  },
+  {
+   "path": "patches/synthetic-1/needs-edit/README.md",
+   "bytes": 53,
+   "sha256": "3de3367a64530f4d1d6337e61e3bd09a79d5e836f3f753a04dbd3dc5b010b5a5"
+  },
+  {
+   "path": "patches/synthetic-1/needs-edit/patch.json",
+   "bytes": 542,
+   "sha256": "ff34f0667fa0ea61f988e246f65c0a910301b990bf97933eb212a21b8e570848"
+  },
+  {
+   "path": "patches/synthetic-1/no-room/README.md",
+   "bytes": 50,
+   "sha256": "d9251f6260f64f5f049e332b0769bf55d7c9dec834a1833fa5a54f3ce0a65ed9"
+  },
+  {
+   "path": "patches/synthetic-1/no-room/append.hex",
+   "bytes": 1040,
+   "sha256": "730d8a77278960f4aaa22a5aa5a9f16571b160e148d3eb6775f0567784bd0cf7"
+  },
+  {
+   "path": "patches/synthetic-1/no-room/patch.json",
+   "bytes": 462,
+   "sha256": "f8f1362d6c0395b4400c8b74116b1a8dd83691f79a8a80b610667e98e7021fb1"
+  },
+  {
+   "path": "patches/synthetic-1/overlap/README.md",
+   "bytes": 50,
+   "sha256": "11b247ae7536fb26cccccdd4bd193c5d31b9c16977105711343fed37fb0cf228"
+  },
+  {
+   "path": "patches/synthetic-1/overlap/patch.json",
+   "bytes": 532,
+   "sha256": "79e0bcf96728bbf24316fd7a470d0547bd441d7ff70b141ade02639d14fd1a80"
+  },
+  {
+   "path": "patches/synthetic-1/stock-mismatch/README.md",
+   "bytes": 57,
+   "sha256": "76bb0481d0809700aa8073db8479e98ac75a975cf6df610fdd794e744c8ccac2"
+  },
+  {
+   "path": "patches/synthetic-1/stock-mismatch/patch.json",
+   "bytes": 539,
+   "sha256": "ac99157f64d48fd5f64bfb52907b3a8327619e8bd00832527c6c3b6b06c80c1b"
+  }
+ ]
+}
